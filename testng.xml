@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1">
+	<parameter name="BrowserName" value="chrome" />
+	<!-- <parameter name="sUsername" value="adeleon55" />
+	<parameter name="sPassword" value="LoveLife101655" />
+	<parameter name="sFirstName" value="Princess" />
+	<parameter name="sLastName" value="Leah" />
+	<parameter name="sEmail" value="adeleon55@comcast.net" />
+	<parameter name="sNewPassword" value="LoveLife101655" />
+	<parameter name="sEmailConfirm" value="adeleon55@comcast.net" /> -->
+	
+	<test name="SimpleParamExample">
+		<classes>
+			<!-- <class name="week4day2.selenium.TestHomePage"> -->
+			<class name="week4day2.selenium.Test99GuruHomePage">
+				<methods>
+					<include name="test_Home_Page_DashBoard_UserName" />
+					<!--  <include name="testUserLogin" /> -->
+					<!--<include name="verifyTextforCreateNewAccount" />-->
+					 <!-- include name="verifyTextforConnectWithFriends" / -->
+					 <!-- <include name="verifyForgotAccountLink" /> -->
+					 <!--  <include name="testUserRegistration" />-->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
