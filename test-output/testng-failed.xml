@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group of group Suite]">
+  <parameter name="sNewPassword" value="LoveLife101655"/>
+  <parameter name="sFirstName" value="Princess"/>
+  <parameter name="strUserName" value="adeleon55"/>
+  <parameter name="sEmail" value="adeleon55@comcast.net"/>
+  <parameter name="sLastName" value="Leah"/>
+  <parameter name="sEmailConfirm" value="adeleon55@comcast.net"/>
+  <parameter name="strPassword" value="LoveLife101655"/>
+  <parameter name="sPassword" value="LoveLife101655"/>
+  <test thread-count="5" name="SimpleParamExample(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="week4day2.selenium.Test99GuruHomePage">
+        <methods>
+          <include name="test_Set_User_Name" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="test_Set_Password" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- week4day2.selenium.Test99GuruHomePage -->
+    </classes>
+  </test> <!-- SimpleParamExample(failed) -->
+</suite> <!-- Failed suite [Group of group Suite] -->
